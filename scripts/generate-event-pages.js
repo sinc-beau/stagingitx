@@ -342,4 +342,11 @@ export default function EventLayout({ children }: { children: React.ReactNode })
   }
 }
 
-generateEventPages();
+generateEventPages()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  });
