@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3026],{6294:function(e,r,t){Promise.resolve().then(t.bind(t,6381))},6381:function(e,r,t){"use strict";t.r(r),t.d(r,{default:function(){return c}});var n=t(7437),o=t(2265),s=t(4033);function c(){let e=(0,s.useRouter)();return(0,o.useEffect)(()=>{e.push("/backbone-cto-cio-forums")},[e]),(0,n.jsx)("div",{className:"min-h-screen bg-black flex items-center justify-center",children:(0,n.jsxs)("div",{className:"text-white text-center",children:[(0,n.jsx)("h1",{className:"text-2xl font-bold mb-4",children:"Redirecting to Backbone Forums..."}),(0,n.jsx)("div",{className:"animate-spin rounded-full h-8 w-8 border-b-2 border-[#4B0BE8] mx-auto"})]})})}},622:function(e,r,t){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=t(2265),o=Symbol.for("react.element"),s=Symbol.for("react.fragment"),c=Object.prototype.hasOwnProperty,u=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,i={key:!0,ref:!0,__self:!0,__source:!0};function f(e,r,t){var n,s={},f=null,a=null;for(n in void 0!==t&&(f=""+t),void 0!==r.key&&(f=""+r.key),void 0!==r.ref&&(a=r.ref),r)c.call(r,n)&&!i.hasOwnProperty(n)&&(s[n]=r[n]);if(e&&e.defaultProps)for(n in r=e.defaultProps)void 0===s[n]&&(s[n]=r[n]);return{$$typeof:o,type:e,key:f,ref:a,props:s,_owner:u.current}}r.Fragment=s,r.jsx=f,r.jsxs=f},7437:function(e,r,t){"use strict";e.exports=t(622)},4033:function(e,r,t){e.exports=t(290)}},function(e){e.O(0,[2971,7864,1744],function(){return e(e.s=6294)}),_N_E=e.O()}]);

@@ -6,6 +6,15 @@ export default function RB2BLoader() {
   const scriptLoaded = useRef(false);
 
   useEffect(() => {
+    // Skip loading if RB2B ID is not configured
+    const rb2bId = process.env.NEXT_PUBLIC_RB2B_ID;
+    if (!rb2bId) {
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('RB2B tracking script not loaded: NEXT_PUBLIC_RB2B_ID is not configured');
+      }
+      return;
+    }
+
     // Only load the script once
     if (scriptLoaded.current) return;
 
@@ -18,7 +27,7 @@ export default function RB2BLoader() {
 
     const script = document.createElement('script');
     script.id = 'rb2b-script';
-    script.src = `https://ddwl4m2hdecbv.cloudfront.net/b/${process.env.NEXT_PUBLIC_RB2B_ID}/${process.env.NEXT_PUBLIC_RB2B_ID}.js.gz`;
+    script.src = `https://ddwl4m2hdecbv.cloudfront.net/b/${rb2bId}/${rb2bId}.js.gz`;
     script.async = true;
 
     script.onload = () => {
