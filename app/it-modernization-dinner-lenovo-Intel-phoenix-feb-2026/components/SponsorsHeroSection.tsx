@@ -22,7 +22,7 @@ export default function SponsorsHeroSection({ sponsors }: SponsorsHeroSectionPro
           <h2 className="text-sm font-bold text-gray-600 uppercase tracking-wider mb-6">
             Presented By
           </h2>
-          <div className="flex items-center justify-center gap-12 flex-wrap">
+          <div className="flex items-center justify-center gap-12 flex-wrap min-h-[111px]">
             {sponsors.map((sponsor, index) => (
               <div
                 key={index}
