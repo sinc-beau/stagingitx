@@ -31,7 +31,7 @@ export default function SponsorsHeroSection({ sponsors }: SponsorsHeroSectionPro
                 <img
                   src={sponsor.logo_url}
                   alt={sponsor.name}
-                  className="h-16 w-auto object-contain"
+                  className="h-[111px] w-auto object-contain"
                 />
               </div>
             ))}
