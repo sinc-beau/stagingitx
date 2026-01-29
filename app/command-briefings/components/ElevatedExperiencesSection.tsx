@@ -7,7 +7,7 @@ import Link from 'next/link';
 const elevatedEvents = [
   {
     slug: 'futurescale-philly-stadium-tour-feb-2026',
-    title: 'FutureScale Philadelphia Stadium Tour',
+    title: 'Philadelphia IT Leaders Lincoln Financial Field Tour',
     date: 'February 19, 2026',
     time: '4:00 PM - 7:00 PM',
     city: 'Philadelphia, PA',
