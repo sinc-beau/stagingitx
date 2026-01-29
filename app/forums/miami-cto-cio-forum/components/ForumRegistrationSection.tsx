@@ -24,7 +24,16 @@ export default function ForumRegistrationSection() {
           <p className="text-center text-sm font-bold text-[#FFD700] uppercase tracking-wider mb-6">
             Gold Sponsors
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div className="bg-slate-50 rounded-xl p-8 flex items-center justify-center min-h-[120px]">
+              <Image
+                src="/harmonyitxlogo.png"
+                alt="Harmony"
+                width={250}
+                height={80}
+                className="object-contain"
+              />
+            </div>
             <div className="bg-slate-50 rounded-xl p-8 flex items-center justify-center min-h-[120px]">
               <Image
                 src="/insight.png"
