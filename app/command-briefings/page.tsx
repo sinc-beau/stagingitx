@@ -11,8 +11,8 @@ export default function CommandBriefingsPage() {
   return (
     <>
       <HeroSection />
-      <ElevatedExperiencesSection />
       <MissionTypesSection />
+      <ElevatedExperiencesSection />
       <div id="events">
         <EventsByCategorySection category="Dinner" />
         <EventsByCategorySection category="Learn & Go" />

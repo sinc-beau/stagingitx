@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Utensils, Zap, Monitor, Clock, Users, Code, Cloud, Shield } from 'lucide-react';
+import { Utensils, Zap, Monitor, Clock, Users, Code, Cloud, Shield, Sparkles } from 'lucide-react';
 import { ITxNewsletterHubspotForm } from '@/components/forms/ITxNewsletterHubspotForm';
 
 export default function MissionTypesSection() {
@@ -30,6 +30,14 @@ export default function MissionTypesSection() {
       advantage: 'Focused 45-minute sessions with IT leaders',
       benefit: 'Learn from peers who have scaled digital operations',
       duration: '45 mins',
+      color: '#4B0BE8'
+    },
+    {
+      icon: Sparkles,
+      title: 'Elevated Experiences',
+      advantage: 'Exclusive venue access and unique networking events',
+      benefit: 'Connect with IT leaders in unforgettable settings like stadiums and curling clubs',
+      duration: '2-3 hours',
       color: '#4B0BE8'
     }
   ];
@@ -64,7 +72,7 @@ export default function MissionTypesSection() {
         </div>
 
         {/* Mission Type Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {missionTypes.map((type, index) => (
             <div
               key={index}
