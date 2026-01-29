@@ -19,7 +19,6 @@ export default function ITxForumEastPage() {
     <div className="min-h-screen bg-black text-white">
       <main>
         <HeroSection />
-        <SponsorsSection />
         <ITxDifferenceSection />
         <AgendaHighlightsSection />
         <ForumRegistrationSection />
@@ -29,6 +28,7 @@ export default function ITxForumEastPage() {
         <WhyAttendSection />
         <NetworkingSection />
         <RegistrationSection />
+        <SponsorsSection />
       </main>
       <Footer />
     </div>
