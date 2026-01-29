@@ -3,7 +3,6 @@
 import React from 'react';
 import { Footer } from '@/components/Footer';
 import HeroSection from './components/HeroSection';
-import SponsorsSection from './components/SponsorsSection';
 import ITxDifferenceSection from './components/ITxDifferenceSection';
 import ForumRegistrationSection from './components/ForumRegistrationSection';
 import VenueSection from './components/VenueSection';
@@ -19,7 +18,6 @@ export default function ITxForumEastPage() {
     <div className="min-h-screen bg-black text-white">
       <main>
         <HeroSection />
-        <SponsorsSection />
         <ITxDifferenceSection />
         <AgendaHighlightsSection />
         <ForumRegistrationSection />
