@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
+import ElevatedExperiencesSection from './components/ElevatedExperiencesSection';
 import MissionTypesSection from './components/MissionTypesSection';
 import WhoAttendsSection from './components/WhoAttendsSection';
 import EventsByCategorySection from './components/EventsByCategorySection';
@@ -10,6 +11,7 @@ export default function CommandBriefingsPage() {
   return (
     <>
       <HeroSection />
+      <ElevatedExperiencesSection />
       <MissionTypesSection />
       <div id="events">
         <EventsByCategorySection category="Dinner" />
