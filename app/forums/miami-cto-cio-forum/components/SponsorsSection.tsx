@@ -19,11 +19,18 @@ export default function SponsorsSection() {
               <h3 className="text-sm font-bold text-[#FFD700] uppercase tracking-wider mb-6">
                 Gold Sponsors
               </h3>
-              <div className="flex items-center justify-center">
+              <div className="flex flex-wrap items-center justify-center gap-8">
                 <div className="bg-white/5 backdrop-blur-sm border border-[#FFD700]/20 rounded-2xl p-8 hover:border-[#FFD700]/40 transition-all duration-300">
                   <img
                     src="/insight.png"
                     alt="Insight"
+                    className="h-20 w-auto object-contain"
+                  />
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm border border-[#FFD700]/20 rounded-2xl p-8 hover:border-[#FFD700]/40 transition-all duration-300">
+                  <img
+                    src="/unframe.png"
+                    alt="Unframe"
                     className="h-20 w-auto object-contain"
                   />
                 </div>
