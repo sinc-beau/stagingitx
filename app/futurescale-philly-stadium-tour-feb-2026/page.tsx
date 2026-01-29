@@ -65,7 +65,7 @@ export default function FutureScalePhillyStadiumTour() {
             {/* Left Content */}
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 uppercase leading-tight">
-                Inside Lincoln Financial Field: <span className="text-[#4B0BE8]">A Private Stadium Tour and AI Executive Experience</span>
+                <span className="text-[#4B0BE8]">Philadelphia IT Leaders Lincoln Financial Field Tour</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                 An invite-only evening for senior IT leaders featuring behind-the-scenes access, high-impact networking, and a discussion on the future of AI-powered business communications.

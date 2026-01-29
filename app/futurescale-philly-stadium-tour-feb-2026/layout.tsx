@@ -1,24 +1,24 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FutureScale Stadium Tour | Philadelphia | ITx Collective',
-  description: 'Join ITx Collective for an exclusive FutureScale Stadium Tour at Lincoln Financial Field in Philadelphia. Network with senior IT leaders while experiencing this iconic venue.',
+  title: 'Philadelphia IT Leaders Lincoln Financial Field Tour | ITx Collective',
+  description: 'Join ITx Collective for the Philadelphia IT Leaders Lincoln Financial Field Tour. Network with senior IT leaders while experiencing this iconic venue.',
   openGraph: {
-    title: 'FutureScale Stadium Tour | Philadelphia | ITx Collective',
-    description: 'Join ITx Collective for an exclusive FutureScale Stadium Tour at Lincoln Financial Field in Philadelphia. Network with senior IT leaders while experiencing this iconic venue.',
+    title: 'Philadelphia IT Leaders Lincoln Financial Field Tour | ITx Collective',
+    description: 'Join ITx Collective for the Philadelphia IT Leaders Lincoln Financial Field Tour. Network with senior IT leaders while experiencing this iconic venue.',
     images: [
       {
         url: '/ITxFutureScaleOG.png',
         width: 1200,
         height: 630,
-        alt: 'FutureScale Stadium Tour Philadelphia',
+        alt: 'Philadelphia IT Leaders Lincoln Financial Field Tour',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FutureScale Stadium Tour | Philadelphia | ITx Collective',
-    description: 'Join ITx Collective for an exclusive FutureScale Stadium Tour at Lincoln Financial Field in Philadelphia.',
+    title: 'Philadelphia IT Leaders Lincoln Financial Field Tour | ITx Collective',
+    description: 'Join ITx Collective for the Philadelphia IT Leaders Lincoln Financial Field Tour.',
     images: ['/ITxFutureScaleOG.png'],
   },
 };
